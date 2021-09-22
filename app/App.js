@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import 'react-native-gesture-handler';
 import HomeScreen from './src/screens/HomeScreen';
+import MatchesScreen from './src/screens/MessageScreen';
 
 const App = () => {
   return (
