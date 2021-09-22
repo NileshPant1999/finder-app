@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image, ImageBackground} from 'react-native';
 
-const index = props => {
+const Card = props => {
   const {name, image, bio} = props.user;
   return (
     <View style={styles.card}>
@@ -19,7 +19,7 @@ const index = props => {
   );
 };
 
-export default index;
+export default Card;
 
 const styles = StyleSheet.create({
   name: {
@@ -35,10 +35,11 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
   },
   card: {
-    width: '95%',
-    height: '70%',
+    width: '100%',
+    height: '100%',
     borderRadius: 10,
     shadowColor: '#000',
+    backgroundColor: '#fefefe',
     shadowOffset: {
       width: 0,
       height: 4,
